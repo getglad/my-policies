@@ -2,7 +2,7 @@ collections:
   - name: "test-3"
     schedule: "rate(10 minutes)"
     accounts:
-      - 162211783590
+      - 407709153922
     regions:
       - us-east-1
     policies:
