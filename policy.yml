@@ -17,13 +17,13 @@ policies:
       - Compliance::PCI DSS
       - Risk::High
     metadata:
-      - category
+      category
         - CAT1
         - cat2
-      - compliance
+      compliance
         - comp1
         - COMP2
-      - severity
+      severity
         - HIGH
     resource: aws.s3
     description: this is a test2
