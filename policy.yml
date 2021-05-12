@@ -18,6 +18,10 @@ policies:
       - Risk::High
     resource: aws.s3
     description: this is a test2
+    metadata:
+      category: security
+      compliance: "apra, gdpr, hippa"
+      severity: high
 
   - name: foo
     resource: aws.security-group
