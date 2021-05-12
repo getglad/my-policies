@@ -16,6 +16,15 @@ policies:
       - Compliance::NIST 800-53
       - Compliance::PCI DSS
       - Risk::High
+    metadata:
+      - category
+        - CAT1
+        - cat2
+      - compliance
+        - comp1
+        - COMP2
+      - severity
+        - HIGH
     resource: aws.s3
     description: this is a test2
 
