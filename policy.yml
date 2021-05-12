@@ -17,17 +17,9 @@ policies:
       - Compliance::PCI DSS
       - Risk::High
     metadata:
-      category: [security]
-      compliance:
-        - type: CIS
-          version: 1.3
-          control-mappings: [1.4]
-        - type: CCM
-          version: 3.1
-          control-mappings: [AIS-04,EKM-01,EKM-02,EKM-03,GRM-06,HRS-11,IAM-01,IAM-02,IAM-04,IAM-05,IAM-10,IAM-11,IAM-12]
-      control-type: [access-control]
-      creator: Stacklet
-      severity: high
+      category: CAT1, cat2
+      compliance: comp1, COMP2
+      severity: HIGH
     resource: aws.s3
     description: this is a test2
 
